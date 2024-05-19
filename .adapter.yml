@@ -1,0 +1,8 @@
+name: Chainlink Ki.Dot Adapter
+description: Chainlink Adapter to Ki.Dot
+node_identifier: kidot
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+

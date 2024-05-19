@@ -1,0 +1,18 @@
+{
+  "CUSTOM_TYPES": {
+    "Address": "AccountId",
+    "LookupSource": "AccountId",
+    "SpecIndex": "Vec<u8>",
+    "RequestIdentifier": "u64",
+    "DataVersion": "u64",
+    "LoanId": "u32",
+    "Amount": "u32",
+    "LoanDetails": {
+      "loanId": "LoanId",
+      "loanAmount": "Amount",
+      "fundedAmount": "Amount",
+      "payedBackAmount": "Amount"
+    }
+  },
+  "PROVIDER_SOCKET": "wss://kidot.ltk.codes:9944"
+}

@@ -1,0 +1,18 @@
+{
+  "APP_NAME": "Ki.Dot",
+  "DEVELOPMENT_KEYRING": true,
+  "RPC": {},
+  "PROVIDER_SOCKET": "ws://127.0.0.1:9944",
+  "CUSTOM_TYPES": {"SpecIndex": "Vec<u8>",
+    "RequestIdentifier": "u64",
+    "DataVersion": "u64",
+    "LoanId": "u32",
+    "Amount": "u32",
+    "LoanDetails": {
+      "loanId": "LoanId",
+      "loanAmount": "Amount",
+      "fundedAmount": "Amount",
+      "payedBackAmount": "Amount"
+    }
+  }
+}
